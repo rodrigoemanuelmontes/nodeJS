@@ -28,18 +28,15 @@ Para ejecutar los ejemplos de este proyecto, sigue los siguientes pasos:
 
    ```bash
    git clone https://github.com/rodrigoemanuelmontes/nodeJS.git
+
 Accede al directorio del proyecto:
-
-bash
-Copiar
-Editar
 cd nodeJS
-Ejecuta los ejemplos en Node.js:
 
-bash
-Copiar
-Editar
+
+Ejecuta los ejemplos en Node.js:
 node nombre_del_archivo.js
+
+
 5. Preguntas y Reflexiones
 Al trabajar con clases, destructuring y spread operator en JavaScript, se pueden responder varias preguntas:
 
