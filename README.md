@@ -1,47 +1,92 @@
-# Node.js - Clases y Operadores Avanzados
+# Proyecto de Práctica JavaScript – Arrays, Objetos y Funciones
 
-Este repositorio contiene ejemplos prácticos de **Programación Orientada a Objetos (POO)** y **operadores avanzados de JavaScript**. A través de este proyecto, aprenderás cómo usar clases, herencia, destructuring, y spread operator para escribir código más limpio y eficiente.
+Este repositorio contiene una serie de ejercicios prácticos realizados en JavaScript como parte del proceso de aprendizaje y profundización en conceptos clave del lenguaje. Los archivos exploran distintos temas del ecosistema JavaScript moderno, incluyendo estructuras de datos, funciones, clases y operadores avanzados.
 
-## **1. Clases en JavaScript**
+---
 
-JavaScript es un lenguaje multiparadigma, lo que significa que soporta múltiples metodologías de programación. La **Programación Orientada a Objetos (POO)** es un enfoque común en lenguajes como Java o C# y se basa en la creación de **clases**. Las clases definen propiedades y comportamientos (métodos), y pueden ser extendidas por subclases que heredan estas propiedades y comportamientos.
+## 🧠 Temas trabajados
 
-En este proyecto, se definen clases que representan a **usuarios (User)**, **vendedores (Seller)** y **compradores (Buyer)**. A través de estos ejemplos, se muestra cómo se pueden crear instancias de clases, utilizar métodos y cómo las subclases pueden extender y heredar características de la clase base.
+### ✅ Funciones en JavaScript
+Se muestra cómo declarar y utilizar distintos tipos de funciones:
+- Funciones declaradas
+- Funciones expresadas
+- Funciones flecha (arrow functions)
 
-## **2. Destructuring en JavaScript**
+Se trabajan ejemplos para entender cuándo utilizar cada una y cómo se comportan en tiempo de ejecución.
 
-El **destructuring** es una característica de JavaScript que permite extraer valores de arrays u objetos y asignarlos a variables de manera rápida y sencilla. Este enfoque mejora la legibilidad y concisión del código.
+---
 
-En el proyecto se exploran ejemplos de **destructuring en arrays** y **destructuring en objetos**. Además, se cubren funcionalidades avanzadas como el uso de **valores predeterminados**, **renombrado de propiedades** y **destructuring anidado**.
+### ✅ Objetos
+Se exploran distintos enfoques para trabajar con objetos:
+- Objetos literales
+- Objetos funcionales (con funciones constructoras)
+- Agregado y modificación dinámica de propiedades
+- Métodos dentro de objetos
+- Acceso a propiedades con notación punto y corchete
 
-## **3. Spread Operator en JavaScript**
+---
 
-El **spread operator** (`...`) es una herramienta poderosa en JavaScript que permite expandir arrays u objetos en lugares donde se esperan múltiples elementos. Es útil para tareas como combinar o clonar arrays y objetos de manera inmutable.
+### ✅ Clases y Herencia (POO)
+Se crea una estructura orientada a objetos mediante clases. Se implementa:
+- Clase base `User` con propiedades y método `login()`
+- Clase `Seller` que hereda de `User` y agrega ventas e ingresos
+- Clase `Buyer` con métodos para simular compras y manejar el balance
 
-En el proyecto, se muestra cómo utilizar el spread operator tanto en **arrays** como en **objetos**, explorando casos comunes como la combinación de arrays y objetos, la clonación de estructuras de datos, y cómo evitar la mutación de los datos originales.
+Este bloque introduce conceptos clave de la **Programación Orientada a Objetos** (POO) en JavaScript.
 
-## **4. Instalación y Uso**
+---
 
-Para ejecutar los ejemplos de este proyecto, sigue los siguientes pasos:
+### ✅ Arrays y Métodos Avanzados
+Se practica con distintos métodos de arrays como:
+- `.forEach()` para recorrer arrays
+- `.filter()` para filtrar elementos según condiciones
+- `.map()` para transformar elementos (como cálculo de IVA)
+- `.join()` para unir los valores del array en un string
 
-1. Clona este repositorio:
+Se incluyen ejercicios para visualizar cómo transformar y manipular datos en estructuras tipo lista.
 
-   ```bash
-   git clone https://github.com/rodrigoemanuelmontes/nodeJS.git
+---
 
-Accede al directorio del proyecto:
-cd nodeJS
+### ✅ Operadores Avanzados
+Se profundiza en dos operadores fundamentales:
+- **Destructuring**: para extraer propiedades de objetos y arrays de forma sencilla y limpia.
+- **Spread operator (`...`)**: para copiar, combinar o actualizar arrays y objetos sin mutar los originales.
 
+---
 
-Ejecuta los ejemplos en Node.js:
-node nombre_del_archivo.js
+### ✅ Ejercicios de Simulación
+Se presentan desafíos estilo "misión" donde se trabaja con arrays de objetos, como por ejemplo:
+- Filtrar autos por año
+- Contar autos por color usando destructuring
+- Aplicar lógica condicional para manipular datos
 
+Estas actividades simulan escenarios reales de programación con estructuras dinámicas.
 
-5. Preguntas y Reflexiones
-Al trabajar con clases, destructuring y spread operator en JavaScript, se pueden responder varias preguntas:
+---
 
-¿Cuándo es más útil utilizar objetos literales frente a clases o funciones constructoras?
+## 📁 Estructura del Proyecto
 
-¿Qué ventajas ofrece el destructuring en la simplificación de código?
+- `funciones.js`: ejemplos y usos de funciones declaradas, expresadas y flecha.
+- `objetos.js`: trabajo con objetos literales, funcionales y métodos.
+- `clases.js`: creación de clases, herencia y objetos instanciados.
+- `arrays.js`: manipulación de listas con métodos de orden superior.
+- `ejercicios.js`: simulaciones prácticas con condiciones y operaciones sobre datos reales.
+- `operadores.js`: uso de destructuring y spread en objetos y arrays.
 
-¿En qué situaciones puede ser útil combinar objetos y arrays con el spread operator?
+---
+
+## 🛠️ Tecnologías utilizadas
+
+- JavaScript (ES6+)
+- Node.js (entorno local para ejecución)
+- Git & GitHub (versionado y publicación del código)
+
+---
+
+## 📚 Objetivo del Proyecto
+
+El objetivo es consolidar el conocimiento en JavaScript mediante ejercicios prácticos, simulaciones y ejemplos reales que representan desafíos comunes en el desarrollo web. Ideal para principiantes/intermedios que están dando sus primeros pasos en lógica de programación y estructuras de datos.
+
+---
+
+💻 Hecho con ❤️ mientras aprendo a dominar JavaScript.
